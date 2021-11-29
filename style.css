@@ -513,6 +513,10 @@ h6 {
           box-shadow: 10px 10px 10px 1px #eaeaea;
 }
 
+.filter-item:hover {
+  background-color: #efe4fd;
+}
+
 .filter-item__number {
   border-radius: 50rem;
   width: 2rem;
@@ -853,7 +857,7 @@ body {
 }
 
 .food-search__button {
-  background-image: -webkit-gradient (linear, left top, left bottom, color-stop(-10%, #ff79da), color-stop(150%, #9356dc));
+  background-image: -webkit-gradient (linear, left top, left bottom, (-10%, #ff79da), color-stop(150%, #9356dc));
   background-image: linear-gradient(#ff79da -10%, #9356dc 150%);
   color: #fff;
   font-weight: bold;
